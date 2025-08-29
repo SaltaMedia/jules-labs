@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jules Labs Website
+
+A minimalist one-page company website for Jules Labs, built with Next.js and Tailwind CSS.
+
+## About Jules Labs
+
+Jules Labs builds emotionally intelligent tools that help men navigate the real world with confidence and clarity. Our flagship product, Jules:Style, focuses on appearance and presence as a practical on-ramp to confidence.
+
+## Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Font**: Inter (Google Fonts)
+- **Deployment**: Ready for Vercel/Netlify
+
+## Features
+
+- 🎨 Custom color palette and gradients
+- 📱 Fully responsive design
+- ♿ Accessible navigation
+- 🚀 Fast loading with Next.js optimizations
+- 🎯 SEO optimized with proper metadata
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SaltaMedia/jules-labs.git
+   cd jules-labs
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## Project Structure
+
+```
+jules-labs/
+├── public/                 # Static assets
+│   ├── logo-white.svg     # Main logo (white version)
+│   ├── logo-black.svg     # Logo for dark backgrounds
+│   └── Logo Files/        # All logo variations
+├── src/
+│   ├── app/              # Next.js App Router
+│   │   ├── globals.css   # Global styles
+│   │   ├── layout.tsx    # Root layout
+│   │   └── page.tsx      # Home page
+│   └── components/       # Reusable components
+│       ├── Header.tsx    # Navigation header
+│       ├── Section.tsx   # Section wrapper
+│       ├── CTAButton.tsx # Call-to-action buttons
+│       └── TeamCard.tsx  # Team member cards
+├── tailwind.config.ts    # Tailwind configuration
+└── package.json          # Dependencies
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Customization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Colors
+The website uses a custom color palette defined in `tailwind.config.ts`:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `tealBright`: #3fc1c9
+- `navyDark`: #364f6b
+- `offWhite`: #f5f5f5
+- `aquaLight`: #67ced4
+- `seaGreen`: #2f9fa6
+- `slateBlue`: #47688d
 
-## Learn More
+### Gradients
+Two custom gradients are available:
+- `bg-gradient-hero`: Teal to navy gradient
+- `bg-gradient-grey`: Off-white gradient
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is ready for deployment on Vercel, Netlify, or any other platform that supports Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy automatically
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+© 2025 Jules Labs. All rights reserved.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+
+For questions about this website or Jules Labs, please visit [juleslabs.com](https://juleslabs.com).
