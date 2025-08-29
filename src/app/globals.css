@@ -6,6 +6,6 @@
 }
 
 body { 
-  @apply antialiased text-slate-900 bg-offWhite font-sans;
+  @apply antialiased text-slate-900 bg-gray-50 font-sans;
   font-family: 'Inter', sans-serif;
 }
