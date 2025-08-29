@@ -1,11 +1,26 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
 
 :root { 
   color-scheme: light; 
 }
 
 body { 
-  @apply antialiased text-slate-900 bg-gray-50 font-sans;
+  @apply antialiased text-white font-sans;
   font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom right, #111827, #1f2937, #374151);
+  min-height: 100vh;
+}
+
+.glassify {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glassify-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
 }
