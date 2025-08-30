@@ -38,7 +38,7 @@ export default function Home() {
             We&apos;re creating a human-first platform that supports, sharpens, and challenges users to express themselves, and build confidence to be themselves in real-world relationships and interactions.
           </p>
           <p className="text-lg leading-relaxed">
-            Our flagship product, Jules, is a modern AI wingwoman and stylist built to elevate, not replace, human experience. Jules acts as your personal stylist, to help you show up looking and feeling your best in social situations.
+            Our flagship product, Jules (currently in beta), is a modern AI wingwoman and stylist built to elevate, not replace, human experience. Jules acts as your personal stylist, to help you show up looking and feeling your best in social situations.
           </p>
           <div className="mt-8">
             <a href={getJulesUrl()} className="inline-flex items-center rounded-xl px-8 py-4 text-lg font-medium transition bg-gradient-to-r from-blue-500 to-blue-600 text-white hover:from-blue-600 hover:to-blue-700 shadow-lg">
@@ -87,7 +87,7 @@ export default function Home() {
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6">
-            <h3 className="text-xl font-semibold">Your AI Wing-Woman for Style and Confidence</h3>
+            <h3 className="text-xl font-semibold">Your AI Wing-Woman for Style and Confidence (in beta)</h3>
 
             <p className="text-lg leading-relaxed">
               Jules isn&apos;t another algorithm scraping the internet for trends or a ChatGPT wrapper. She&apos;s the first AI stylist trained by humans, guided by psychology, and shaped by real fashion experts.
@@ -98,7 +98,7 @@ export default function Home() {
             </p>
 
             <p className="text-lg leading-relaxed">
-              Right now, Jules is in Beta, and we&apos;re inviting real guys to test, shape, and grow with her. This isn&apos;t a polished showroom demo. By joining now, you&apos;ll be part of the ground floor, giving feedback that makes Jules smarter and more personal every day.
+              Right now, Jules is in beta, and we&apos;re inviting real guys to test, shape, and grow with her. This isn&apos;t a polished showroom demo. By joining now, you&apos;ll be part of the ground floor, giving feedback that makes Jules smarter and more personal every day.
             </p>
 
             <div className="mt-8">
