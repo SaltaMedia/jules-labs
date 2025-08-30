@@ -3,7 +3,7 @@ type Props = {
   title?: string;
   subtitle?: string;
   bg?: "white"|"grey"|"dark"|"gradient1"|"gradient2"|"gradient3"|"gradient4";
-  children: React.ReactNode; s
+  children: React.ReactNode;
 };
 
 export function Section({ id, title, subtitle, bg="white", children }: Props) {
