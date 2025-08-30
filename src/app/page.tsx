@@ -72,6 +72,9 @@ export default function Home() {
           <div className="bg-gradient-to-br from-pink-500/40 to-indigo-600/40 rounded-2xl p-8 text-center border border-pink-500/50 shadow-xl hover:scale-105 transition-transform duration-300 backdrop-blur-sm">
             <h3 className="font-semibold mb-3 text-white text-lg">Create meaningful connections through shared experiences</h3>
           </div>
+          <div className="bg-gradient-to-br from-emerald-500/40 to-teal-600/40 rounded-2xl p-8 text-center border border-emerald-500/50 shadow-xl hover:scale-105 transition-transform duration-300 backdrop-blur-sm">
+            <h3 className="font-semibold mb-3 text-white text-lg">Built on real human expertise and professional insights from psychologists and stylists</h3>
+          </div>
         </div>
       </Section>
 
