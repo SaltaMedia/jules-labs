@@ -17,12 +17,18 @@ export default function Home() {
 
       {/* Hero */}
       <section className="text-white pb-16">
-        <div className="mx-auto max-w-6xl px-6 py-32">
-          <div className="flex flex-col items-center text-center gap-8">
-            <Image src="/logo.svg" alt="Jules Labs" width={480} height={128} priority className="mb-8" />
-            <p className="max-w-3xl text-xl md:text-2xl opacity-90 leading-relaxed">
+        <div className="mx-auto max-w-6xl px-6 py-28">
+          <div className="flex flex-col items-center text-center gap-6">
+            <Image src="/logo.svg" alt="Jules Labs" width={480} height={128} priority className="h-32 w-auto" />
+            <h1 className="text-4xl md:text-6xl font-medium leading-tight">
+              AI for the Real World
+            </h1>
+            <p className="max-w-2xl text-lg opacity-90">
               We build emotionally intelligent tools that help men navigate the real world with confidence and clarity.
             </p>
+            <a href="#jules" className="inline-flex items-center text-xl font-medium text-blue-400 hover:text-blue-300 transition underline">
+              Meet Jules
+            </a>
           </div>
         </div>
         <div className="h-px bg-white/10 mx-auto max-w-6xl"></div>
@@ -40,10 +46,84 @@ export default function Home() {
           <p className="text-lg leading-relaxed">
             Our flagship product, Jules (currently in beta), is a modern AI wingwoman and stylist built to elevate, not replace, human experience. Jules acts as your personal stylist, to help you show up looking and feeling your best in social situations.
           </p>
-          <div className="mt-8">
-            <a href={getJulesUrl()} className="inline-flex items-center rounded-xl px-8 py-4 text-lg font-medium transition bg-gradient-to-r from-blue-500 to-blue-600 text-white hover:from-blue-600 hover:to-blue-700 shadow-lg">
-              MEET JULES
-            </a>
+
+        </div>
+      </Section>
+
+      {/* Why Now */}
+      <Section id="why-now" title="Why Now" subtitle="Men are lonelier and less connected than ever." bg="gradient3">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          {/* Left: Stat Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 gap-6">
+            {/* Stat Card 1 */}
+            <div className="rounded-2xl border border-zinc-200 bg-white ring-1 ring-black/5 shadow-sm dark:border-zinc-800 dark:bg-zinc-950 p-6">
+              <div className="text-4xl font-bold text-blue-600 dark:text-blue-400">25%</div>
+              <div className="mt-2 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+                of U.S. men 15–34 felt lonely much of the previous day
+              </div>
+              <a 
+                href="https://www.washingtonpost.com/nation/2025/05/21/lonely-young-american-men-poll/" 
+                target="_blank" 
+                rel="noreferrer noopener"
+                className="block mt-3 text-xs font-medium text-fuchsia-700 hover:text-fuchsia-800 underline underline-offset-4 dark:text-fuchsia-400 dark:hover:text-fuchsia-300"
+              >
+                Washington Post
+              </a>
+            </div>
+
+            {/* Stat Card 2 */}
+            <div className="rounded-2xl border border-zinc-200 bg-white ring-1 ring-black/5 shadow-sm dark:border-zinc-800 dark:bg-zinc-950 p-6">
+              <div className="text-4xl font-bold text-purple-600 dark:text-purple-400">44%</div>
+              <div className="mt-2 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+                of Gen Z men never dated as teens
+              </div>
+              <a 
+                href="#" 
+                target="_blank" 
+                rel="noreferrer noopener"
+                className="block mt-3 text-xs font-medium text-fuchsia-700 hover:text-fuchsia-800 underline underline-offset-4 dark:text-fuchsia-400 dark:hover:text-fuchsia-300"
+              >
+                Source {/* TODO: swap in a reputable primary source later */}
+              </a>
+            </div>
+
+            {/* Stat Card 3 */}
+            <div className="rounded-2xl border border-zinc-200 bg-white ring-1 ring-black/5 shadow-sm dark:border-zinc-800 dark:bg-zinc-950 p-6">
+              <div className="text-4xl font-bold text-red-600 dark:text-red-400">50%</div>
+              <div className="mt-2 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+                of young men say they&apos;d rather date an AI girlfriend than risk rejection from a human partner
+              </div>
+              <a 
+                href="#" 
+                target="_blank" 
+                rel="noreferrer noopener"
+                className="block mt-3 text-xs font-medium text-fuchsia-700 hover:text-fuchsia-800 underline underline-offset-4 dark:text-fuchsia-400 dark:hover:text-fuchsia-300"
+              >
+                Reuters (2025)
+              </a>
+            </div>
+          </div>
+
+          {/* Right: Narrative Panel */}
+          <div className="rounded-2xl border border-zinc-200 bg-white ring-1 ring-black/5 shadow-sm dark:border-zinc-800 dark:bg-zinc-950 p-8">
+            <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50 text-center">
+              The Wrong Solution
+            </h3>
+            <p className="mt-3 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+              Social media and AI "girlfriends" promise connection, but deliver the opposite: shallow distractions that leave men lonelier and more dependent on what isn&apos;t real. Instead of teaching confidence and resilience, they offer comfort without growth.
+            </p>
+            
+            <div className="mt-4 p-4 border-l-4 border-fuchsia-600 bg-zinc-800/70 text-sm italic text-zinc-200">
+              *"Artificial intimacy programs derive some of their appeal from the fact that they come without the challenges and demands of human relationships. They offer companionship without judgment, drama, or social anxiety but lack genuine human emotion and offer only 'simulated empathy.'"* — Dr. Sherry Turkle, <a href="https://www.psychologytoday.com/us/blog/its-not-just-in-your-head/202408/the-dangers-of-ai-generated-romance" target="_blank" rel="noreferrer noopener" className="underline hover:text-zinc-100">*Psychology Today*</a>
+            </div>
+            
+            <p className="mt-4 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+              The tech that claims to cure loneliness is fueling it. It&apos;s feeding false intimacy and isolating men from the real-world experiences that build strength and connection.
+            </p>
+            
+            <p className="mt-3 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+              Jules exists to break that cycle. Not another escape, but a guide back into the real world. Jules is helping men look sharp, feel confident, make real connections, and show up better in their lives.
+            </p>
           </div>
         </div>
       </Section>
@@ -103,13 +183,14 @@ export default function Home() {
 
             <div className="mt-8">
               <a href={getJulesUrl()} className="inline-flex items-center rounded-xl px-8 py-4 text-lg font-medium transition bg-gradient-to-r from-blue-500 to-blue-600 text-white hover:from-blue-600 hover:to-blue-700 shadow-lg">
-                MEET JULES
+                Join Jules Beta Now
               </a>
-              <p className="mt-2 text-sm text-white/70">Join the beta</p>
             </div>
           </div>
         </div>
       </Section>
+
+
 
       {/* Footer */}
       <footer className="bg-black text-white py-16">
