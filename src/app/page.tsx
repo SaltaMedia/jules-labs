@@ -110,11 +110,11 @@ export default function Home() {
               The Wrong Solution
             </h3>
             <p className="mt-3 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
-              Social media and AI "girlfriends" promise connection, but deliver the opposite: shallow distractions that leave men lonelier and more dependent on what isn&apos;t real. Instead of teaching confidence and resilience, they offer comfort without growth.
+              Social media and AI &ldquo;girlfriends&rdquo; promise connection, but deliver the opposite: shallow distractions that leave men lonelier and more dependent on what isn&apos;t real. Instead of teaching confidence and resilience, they offer comfort without growth.
             </p>
             
             <div className="mt-4 p-4 border-l-4 border-fuchsia-600 bg-zinc-800/70 text-sm italic text-zinc-200">
-              *"Artificial intimacy programs derive some of their appeal from the fact that they come without the challenges and demands of human relationships. They offer companionship without judgment, drama, or social anxiety but lack genuine human emotion and offer only 'simulated empathy.'"* — Dr. Sherry Turkle, <a href="https://www.psychologytoday.com/us/blog/its-not-just-in-your-head/202408/the-dangers-of-ai-generated-romance" target="_blank" rel="noreferrer noopener" className="underline hover:text-zinc-100">*Psychology Today*</a>
+              *&ldquo;Artificial intimacy programs derive some of their appeal from the fact that they come without the challenges and demands of human relationships. They offer companionship without judgment, drama, or social anxiety but lack genuine human emotion and offer only &lsquo;simulated empathy.&rsquo;&rdquo;* — Dr. Sherry Turkle, <a href="https://www.psychologytoday.com/us/blog/its-not-just-in-your-head/202408/the-dangers-of-ai-generated-romance" target="_blank" rel="noreferrer noopener" className="underline hover:text-zinc-100">*Psychology Today*</a>
             </div>
             
             <p className="mt-4 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
