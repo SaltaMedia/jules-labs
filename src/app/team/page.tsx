@@ -69,8 +69,8 @@ export default function Team() {
           <div className="text-sm text-white/50">
             <p>&copy; 2024 Jules Labs. All rights reserved.</p>
             <div className="mt-4 space-x-6">
-              <Link href="/terms" className="hover:text-white transition">Terms</Link>
-              <Link href="/privacy" className="hover:text-white transition">Privacy Policy</Link>
+              <Link href="https://www.juleslabs.com/terms" className="hover:text-white transition">Terms</Link>
+              <Link href="https://www.juleslabs.com/privacy" className="hover:text-white transition">Privacy Policy</Link>
             </div>
           </div>
         </div>

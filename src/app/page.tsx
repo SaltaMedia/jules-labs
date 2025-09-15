@@ -196,10 +196,13 @@ export default function Home() {
       <footer className="bg-black text-white py-16">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <div className="text-sm text-white/50">
+            <p className="mb-4 text-white/70">
+              Jules is an AI tool. Her guidance is for informational purposes only and should not replace professional advice. Use your own judgment before making decisions.
+            </p>
             <p>&copy; 2024 Jules Labs. All rights reserved.</p>
             <div className="mt-4 space-x-6">
-              <a href="/terms" className="hover:text-white transition">Terms</a>
-              <a href="/privacy" className="hover:text-white transition">Privacy Policy</a>
+              <a href="https://www.juleslabs.com/terms" className="hover:text-white transition">Terms</a>
+              <a href="https://www.juleslabs.com/privacy" className="hover:text-white transition">Privacy Policy</a>
             </div>
           </div>
         </div>
