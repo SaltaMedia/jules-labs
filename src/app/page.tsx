@@ -44,7 +44,7 @@ export default function Home() {
             We&apos;re creating a human-first platform that supports, sharpens, and challenges users to express themselves, and build confidence to be themselves in real-world relationships and interactions.
           </p>
           <p className="text-lg leading-relaxed">
-            Our flagship product, Jules (currently in beta), is a modern AI wingwoman and stylist built to elevate, not replace, human experience. Jules acts as your personal stylist, to help you show up looking and feeling your best in social situations.
+            Our flagship product, Jules (currently in beta), is a modern AI wingwoman built to elevate, not replace, human experience. Jules is tackling two main verticals: dating and style. Because how you show up is the first step toward confidence. Show up with intention, and everything shifts: how you feel, how you act, and how people respond.
           </p>
 
         </div>
@@ -167,23 +167,37 @@ export default function Home() {
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6">
-            <h3 className="text-xl font-semibold">Your AI Wing-Woman for Style and Confidence (in beta)</h3>
-
             <p className="text-lg leading-relaxed">
-              Jules isn&apos;t another algorithm scraping the internet for trends or a ChatGPT wrapper. She&apos;s the first AI stylist trained by humans, guided by psychology, and shaped by real fashion experts.
+              Our first product is Jules.
             </p>
 
             <p className="text-lg leading-relaxed">
-              She&apos;s here to do one thing: help men show up sharper and feel more confident in the moments that matter, whether that&apos;s work, dates, or everyday life.
+              She&apos;s not an AI girlfriend. She&apos;s not a replacement for real life. Jules is designed to help men build confidence where it matters most. She&apos;s trained by humans, guided by psychology, and shaped by real-world experiences.
             </p>
+
+            <p className="text-lg leading-relaxed">
+              We&apos;re starting with two verticals:
+            </p>
+
+            <div className="text-left max-w-2xl mx-auto space-y-4">
+              <p className="text-lg leading-relaxed">
+                <strong>Dating</strong> → Feedback on photos, profiles, and texts, plus guidance on showing up better for dates.
+              </p>
+              <p className="text-lg leading-relaxed">
+                <strong>Style</strong> → Build confidence through how you dress and present yourself, informed by real stylists.
+              </p>
+            </div>
 
             <p className="text-lg leading-relaxed">
               Right now, Jules is in beta, and we&apos;re inviting real guys to test, shape, and grow with her. This isn&apos;t a polished showroom demo. By joining now, you&apos;ll be part of the ground floor, giving feedback that makes Jules smarter and more personal every day.
             </p>
 
-            <div className="mt-8">
-              <a href={getJulesUrl()} className="inline-flex items-center rounded-xl px-8 py-4 text-lg font-medium transition bg-gradient-to-r from-blue-500 to-blue-600 text-white hover:from-blue-600 hover:to-blue-700 shadow-lg">
-                Join Jules Beta Now
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="https://dating.juleslabs.com/free-experience" className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-lg font-medium transition bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:from-pink-600 hover:to-purple-700 shadow-lg">
+                Try Jules for Dating
+              </a>
+              <a href="https://app.juleslabs.com/free-experience" className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-lg font-medium transition bg-gradient-to-r from-blue-500 to-blue-600 text-white hover:from-blue-600 hover:to-blue-700 shadow-lg">
+                Try Jules for Style
               </a>
             </div>
           </div>
@@ -210,3 +224,4 @@ export default function Home() {
     </main>
   );
 }
+
