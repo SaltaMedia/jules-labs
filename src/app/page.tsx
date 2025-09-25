@@ -3,13 +3,6 @@ import { Header } from "@/components/Header";
 import { Section } from "@/components/Section";
 
 export default function Home() {
-  // Helper function to get the correct Jules URL based on environment
-  const getJulesUrl = () => {
-    if (process.env.NODE_ENV === 'development') {
-      return 'http://localhost:3001';
-    }
-    return 'https://app.juleslabs.com';
-  };
 
   return (
     <main>
@@ -107,7 +100,7 @@ export default function Home() {
               The Wrong Solution
             </h3>
             <p className="text-lg leading-relaxed text-white/90">
-              Social media and AI "girlfriends" promise connection but deliver isolation. They feed false intimacy and keep men stuck in escape instead of building real confidence. Jules is built to break that cycle and bring men back to the real world, where strength, style, and connection are forged.
+              Social media and AI &ldquo;girlfriends&rdquo; promise connection but deliver isolation. They feed false intimacy and keep men stuck in escape instead of building real confidence. Jules is built to break that cycle and bring men back to the real world, where strength, style, and connection are forged.
             </p>
           </div>
         </div>
