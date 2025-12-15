@@ -25,124 +25,213 @@ export default function Terms() {
       <Section id="terms" bg="gradient2">
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="text-center mb-8">
-            <p className="text-sm text-white/70">Effective Date: 8/27/2025</p>
+            <p className="text-sm text-white/70">Last updated: December 2025</p>
           </div>
 
           <div className="space-y-6">
+            <p className="text-lg leading-relaxed">
+              These Terms of Use (&ldquo;Terms&rdquo;) govern your access to and use of the Jules mobile application and related services (the &ldquo;Service&rdquo;) operated by Jules Labs (&ldquo;Jules,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;).
+            </p>
+            <p className="text-lg leading-relaxed">
+              By accessing or using the Service, you agree to be bound by these Terms. If you do not agree, do not use the Service.
+            </p>
+
+            {/* Section 1 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
+              <h2 className="text-2xl font-semibold mb-4">1. Eligibility</h2>
               <p className="text-white/80">
-                By accessing or using Jules, you agree to be bound by these Terms of Use and our Privacy Policy. If you do not agree, you may not use the Service.
+                You must be at least 13 years old (or 16 in certain jurisdictions) to use the Service. By using the Service, you represent that you meet this requirement.
               </p>
             </div>
 
+            {/* Section 2 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">2. Eligibility</h2>
-              <p className="text-white/80">
-                You must be at least 18 years old to use the Service. By using the Service, you represent and warrant that you meet this requirement.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">3. License to Use</h2>
-              <p className="text-white/80">
-                We grant you a limited, non-transferable, revocable license to access and use Jules for personal, non-commercial purposes, subject to these Terms.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">4. User Content</h2>
-              <p className="text-white/80">
-                You may submit content such as photos, text, and other materials. You retain ownership of any content you submit, but you grant Jules Labs a worldwide, non-exclusive, royalty-free license to host, use, reproduce, display, and distribute your content for the purpose of operating, improving, and providing the Service.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">5. Prohibited Conduct</h2>
-              <p className="text-white/80 mb-4">You agree not to:</p>
-              <ul className="space-y-2 text-white/80 ml-4">
-                <li>• Use the Service for unlawful or abusive purposes.</li>
-                <li>• Upload content that infringes the rights of others.</li>
-                <li>• Interfere with, disrupt, or attempt to gain unauthorized access to the Service.</li>
-              </ul>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">6. Intellectual Property</h2>
-              <p className="text-white/80">
-                All intellectual property in Jules (software, branding, design, and content) belongs to Jules Labs or its licensors. You may not copy, modify, reverse-engineer, or distribute any part of the Service without prior written consent.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">7. Disclaimers</h2>
+              <h2 className="text-2xl font-semibold mb-4">2. The Service</h2>
               <p className="text-white/80 mb-4">
-                Jules is an artificial intelligence tool that provides style-related insights and general guidance. Jules is not a licensed stylist, fashion consultant, psychologist, medical provider, or financial advisor.
-              </p>
-              <p className="text-white/80 mb-4">
-                Any content, suggestions, or recommendations provided by Jules are for informational and entertainment purposes only and should not be relied upon as professional advice.
+                Jules provides an AI-powered application that allows users to upload photos, receive outfit and style feedback, and interact with AI-generated responses.
               </p>
               <p className="text-white/80">
-                The Service is provided on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis without warranties of any kind, whether express, implied, or statutory, including without limitation warranties of merchantability, fitness for a particular purpose, accuracy, or non-infringement. Jules Labs does not warrant that the Service will be uninterrupted, secure, or error-free.
+                The Service is provided for informational and personal use only.
               </p>
             </div>
 
+            {/* Section 3 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">8. Limitation of Liability</h2>
+              <h2 className="text-2xl font-semibold mb-4">3. AI-Generated Content Disclaimer</h2>
               <p className="text-white/80 mb-4">
-                To the maximum extent permitted by law, Jules Labs and its affiliates shall not be liable for any direct, indirect, incidental, consequential, special, punitive, or exemplary damages, including but not limited to:
+                The Service uses artificial intelligence to generate feedback, recommendations, and responses.
               </p>
+              <p className="text-white/80 mb-2">AI-generated content:</p>
               <ul className="space-y-2 text-white/80 ml-4 mb-4">
-                <li>• Loss of profits, revenue, or business opportunities.</li>
-                <li>• Emotional distress or reputational harm.</li>
-                <li>• Wardrobe purchases or financial losses.</li>
-                <li>• Relationship outcomes or personal decisions made in reliance on the Service.</li>
+                <li>• May be inaccurate, incomplete, or inappropriate</li>
+                <li>• Is provided for informational purposes only</li>
+                <li>• Should not be relied upon as professional advice</li>
               </ul>
+              <p className="text-white/80">
+                The Service does not provide medical, mental health, legal, or professional advice. You are solely responsible for how you interpret or act on information provided by the Service.
+              </p>
+            </div>
+
+            {/* Section 4 */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-4">4. User Accounts</h2>
+              <p className="text-white/80 mb-4">
+                To access certain features, you may be required to create an account.
+              </p>
+              <p className="text-white/80 mb-2">You are responsible for:</p>
+              <ul className="space-y-2 text-white/80 ml-4 mb-4">
+                <li>• Maintaining the confidentiality of your account credentials</li>
+                <li>• All activity that occurs under your account</li>
+              </ul>
+              <p className="text-white/80">
+                We reserve the right to suspend or terminate accounts that violate these Terms.
+              </p>
+            </div>
+
+            {/* Section 5 */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-4">5. User Content</h2>
+              
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-lg font-medium mb-2">Ownership</h3>
+                  <p className="text-white/80">
+                    You retain ownership of any content you submit through the Service, including photos, messages, and profile information (&ldquo;User Content&rdquo;).
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="text-lg font-medium mb-2">License to Jules</h3>
+                  <p className="text-white/80">
+                    By using the Service, you grant Jules Labs a limited, non-exclusive, royalty-free, worldwide license to store, process, analyze, and display your User Content solely for the purpose of providing and improving the Service.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="text-lg font-medium mb-2">Content Responsibility</h3>
+                  <p className="text-white/80 mb-2">You are responsible for ensuring that your User Content:</p>
+                  <ul className="space-y-2 text-white/80 ml-4 mb-4">
+                    <li>• Does not violate any laws</li>
+                    <li>• Does not infringe the rights of others</li>
+                    <li>• Does not contain unlawful, harmful, or abusive material</li>
+                  </ul>
+                  <p className="text-white/80">
+                    We reserve the right to remove or restrict access to User Content that violates these Terms or applicable law.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 6 */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-4">6. Acceptable Use</h2>
+              <p className="text-white/80 mb-2">You agree not to:</p>
+              <ul className="space-y-2 text-white/80 ml-4">
+                <li>• Use the Service for unlawful purposes</li>
+                <li>• Upload content you do not have the right to share</li>
+                <li>• Attempt to interfere with or disrupt the Service</li>
+                <li>• Reverse engineer or misuse the Service or its AI systems</li>
+              </ul>
+            </div>
+
+            {/* Section 7 */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-4">7. Account Deletion</h2>
+              <p className="text-white/80 mb-4">
+                You may delete your account at any time through the app&apos;s settings.
+              </p>
+              <p className="text-white/80 mb-2">Upon account deletion:</p>
+              <ul className="space-y-2 text-white/80 ml-4">
+                <li>• Your access to the Service will end</li>
+                <li>• Your data will be handled in accordance with our Privacy Policy</li>
+              </ul>
+            </div>
+
+            {/* Section 8 */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-4">8. Intellectual Property</h2>
+              <p className="text-white/80 mb-4">
+                The Service, including its design, text, graphics, logos, and software, is owned by Jules Labs and protected by intellectual property laws.
+              </p>
+              <p className="text-white/80">
+                You may not copy, modify, distribute, or create derivative works from the Service without our permission.
+              </p>
+            </div>
+
+            {/* Section 9 */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-4">9. Third-Party Services</h2>
+              <p className="text-white/80">
+                The Service may rely on third-party services (such as cloud storage, analytics, or AI providers). Jules Labs is not responsible for the availability or performance of third-party services.
+              </p>
+            </div>
+
+            {/* Section 10 */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-4">10. Disclaimer of Warranties</h2>
+              <p className="text-white/80 mb-4">
+                The Service is provided on an &ldquo;AS IS&rdquo; and &ldquo;AS AVAILABLE&rdquo; basis.
+              </p>
+              <p className="text-white/80 mb-2">We make no warranties, express or implied, regarding:</p>
+              <ul className="space-y-2 text-white/80 ml-4">
+                <li>• Accuracy or reliability of AI-generated content</li>
+                <li>• Availability or uninterrupted operation of the Service</li>
+                <li>• Results obtained from using the Service</li>
+              </ul>
+            </div>
+
+            {/* Section 11 */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-4">11. Limitation of Liability</h2>
+              <p className="text-white/80 mb-4">
+                To the maximum extent permitted by law, Jules Labs shall not be liable for any indirect, incidental, consequential, or special damages arising out of or related to your use of the Service.
+              </p>
               <p className="text-white/80">
                 Your sole remedy for dissatisfaction with the Service is to stop using it.
               </p>
             </div>
 
+            {/* Section 12 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">9. Indemnification</h2>
-              <p className="text-white/80 mb-4">
-                You agree to indemnify, defend, and hold harmless Jules Labs, its affiliates, officers, employees, contractors, and agents from and against any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising out of or in any way connected with your:
-              </p>
+              <h2 className="text-2xl font-semibold mb-4">12. Indemnification</h2>
+              <p className="text-white/80 mb-2">You agree to indemnify and hold harmless Jules Labs from any claims, damages, or expenses arising from:</p>
               <ul className="space-y-2 text-white/80 ml-4">
-                <li>• Use or misuse of the Service.</li>
-                <li>• Violation of these Terms.</li>
-                <li>• Violation of any third-party rights.</li>
+                <li>• Your use of the Service</li>
+                <li>• Your User Content</li>
+                <li>• Your violation of these Terms</li>
               </ul>
             </div>
 
+            {/* Section 13 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">10. Termination</h2>
+              <h2 className="text-2xl font-semibold mb-4">13. Governing Law</h2>
               <p className="text-white/80">
-                We may suspend or terminate your access to the Service at any time, with or without notice, if you violate these Terms or use the Service in a way that could cause harm.
+                These Terms are governed by and construed in accordance with the laws of the State of Oregon, United States, without regard to conflict of law principles.
               </p>
             </div>
 
+            {/* Section 14 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">11. Governing Law and Dispute Resolution</h2>
+              <h2 className="text-2xl font-semibold mb-4">14. Changes to These Terms</h2>
               <p className="text-white/80 mb-4">
-                These Terms are governed by the laws of the State of Oregon, without regard to conflict of law principles.
+                We may update these Terms from time to time. Changes will be posted on this page with an updated &ldquo;Last updated&rdquo; date.
               </p>
               <p className="text-white/80">
-                At Jules Labs&apos; election, any disputes arising from these Terms or your use of the Service shall be resolved through binding arbitration conducted on an individual basis. You waive the right to participate in class actions or class-wide arbitration.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">12. Changes</h2>
-              <p className="text-white/80">
-                We may update these Terms from time to time. Changes are effective upon posting, and your continued use of the Service after changes means you accept the new Terms.
+                Continued use of the Service after changes constitutes acceptance of the revised Terms.
               </p>
             </div>
 
+            {/* Section 15 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">13. Contact</h2>
+              <h2 className="text-2xl font-semibold mb-4">15. Contact Us</h2>
+              <p className="text-white/80 mb-4">
+                If you have questions about these Terms, contact us at:
+              </p>
               <p className="text-white/80">
-                Questions? Email us at <a href="mailto:steve@juleslabs.com" className="text-blue-400 hover:text-blue-300 underline">steve@juleslabs.com</a>
+                Email: <a href="mailto:steve@juleslabs.com" className="text-blue-400 hover:text-blue-300 underline">steve@juleslabs.com</a>
+              </p>
+              <p className="text-white/80">
+                Company: Jules Labs
               </p>
             </div>
           </div>
@@ -170,4 +259,3 @@ export default function Terms() {
     </main>
   );
 }
-
