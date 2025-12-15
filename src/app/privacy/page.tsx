@@ -45,9 +45,10 @@ export default function Privacy() {
                   <h3 className="text-lg font-medium mb-2">Information You Provide Directly</h3>
                   <p className="text-white/80 mb-2">We collect information you voluntarily provide, including:</p>
                   <ul className="space-y-2 text-white/80 ml-4">
-                    <li>• Account information (such as email address or authentication credentials)</li>
+                    <li>• Account information (such as name, email address, or authentication credentials)</li>
                     <li>• User-generated content, including photos you upload and messages you send within the app</li>
-                    <li>• Profile information, such as style preferences or a ZIP code if you choose to provide it in settings (We do not collect precise location data.)</li>
+                    <li>• Profile information, such as style preferences, age, profession, clothing sizes, budget preferences, or a ZIP code if you choose to provide it in settings (We do not collect precise location data.)</li>
+                    <li>• Push notification preferences and settings</li>
                     <li>• Support communications when you contact us for help or feedback</li>
                   </ul>
                 </div>
@@ -56,8 +57,10 @@ export default function Privacy() {
                   <h3 className="text-lg font-medium mb-2">Information Collected Automatically</h3>
                   <p className="text-white/80 mb-2">When you use the Service, we may automatically collect:</p>
                   <ul className="space-y-2 text-white/80 ml-4">
-                    <li>• Usage data (e.g., app interactions, feature usage)</li>
+                    <li>• Usage data (e.g., app interactions, feature usage, screen views)</li>
                     <li>• Device and diagnostic information (e.g., device type, operating system, crash logs)</li>
+                    <li>• Push notification tokens (if you enable notifications)</li>
+                    <li>• Timezone information (for notification scheduling)</li>
                     <li>• Anonymous analytics data to improve app performance and reliability</li>
                   </ul>
                 </div>
