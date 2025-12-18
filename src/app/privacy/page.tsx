@@ -25,68 +25,78 @@ export default function Privacy() {
       <Section id="privacy" bg="gradient1">
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="text-center mb-8">
-            <p className="text-sm text-white/70">Last updated: December 2025</p>
+            <p className="text-sm text-white/70">Effective Date: 8/27/2025</p>
           </div>
 
           <div className="space-y-6">
-            <p className="text-lg leading-relaxed">
-              Jules Labs (&ldquo;Jules,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) operates the Jules mobile application and related services (the &ldquo;Service&rdquo;). This Privacy Policy explains how we collect, use, store, and protect your information when you use our app.
-            </p>
-            <p className="text-lg leading-relaxed">
-              By using the Service, you agree to the collection and use of information in accordance with this policy.
-            </p>
-
             {/* Section 1 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">1. Information We Collect</h2>
-              
-              <div className="space-y-4">
-                <div>
-                  <h3 className="text-lg font-medium mb-2">Information You Provide Directly</h3>
-                  <p className="text-white/80 mb-2">We collect information you voluntarily provide, including:</p>
-                  <ul className="space-y-2 text-white/80 ml-4">
-                    <li>• Account information (such as name, email address, or authentication credentials)</li>
-                    <li>• User-generated content, including photos you upload and messages you send within the app</li>
-                    <li>• Profile information, such as style preferences, age, profession, clothing sizes, budget preferences, or a ZIP code if you choose to provide it in settings (We do not collect precise location data.)</li>
-                    <li>• Push notification preferences and settings</li>
-                    <li>• Support communications when you contact us for help or feedback</li>
-                  </ul>
-                </div>
-                
-                <div>
-                  <h3 className="text-lg font-medium mb-2">Information Collected Automatically</h3>
-                  <p className="text-white/80 mb-2">When you use the Service, we may automatically collect:</p>
-                  <ul className="space-y-2 text-white/80 ml-4">
-                    <li>• Usage data (e.g., app interactions, feature usage, screen views)</li>
-                    <li>• Device and diagnostic information (e.g., device type, operating system, crash logs)</li>
-                    <li>• Push notification tokens (if you enable notifications)</li>
-                    <li>• Timezone information (for notification scheduling)</li>
-                    <li>• Anonymous analytics data to improve app performance and reliability</li>
-                  </ul>
-                </div>
-                
-                <div>
-                  <h3 className="text-lg font-medium mb-2">Permissions We Request</h3>
-                  <p className="text-white/80 mb-2">The app may request the following permissions, only when needed:</p>
-                  <ul className="space-y-2 text-white/80 ml-4">
-                    <li>• Camera access – to allow you to take photos for outfit analysis</li>
-                    <li>• Photo library access – to allow you to upload existing photos</li>
-                    <li>• Microphone / speech recognition – if you use voice features (when applicable)</li>
-                  </ul>
-                  <p className="text-white/80 mt-2">We do not access your camera or photo library unless you explicitly grant permission.</p>
-                </div>
-              </div>
+              <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
+              <p className="text-lg leading-relaxed">
+                Jules Labs (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) respects your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use Jules, our AI-powered style and lifestyle service (the &ldquo;Service&rdquo;).
+              </p>
+              <p className="text-lg leading-relaxed mt-4">
+                By using the Service, you agree to the practices described in this Privacy Policy. If you do not agree, please discontinue use.
+              </p>
             </div>
 
             {/* Section 2 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">2. How We Collect Information</h2>
-              <p className="text-white/80 mb-4">We collect information through:</p>
-              <ul className="space-y-2 text-white/80 ml-4">
-                <li>• Direct user input (e.g., account creation, photo uploads, chat messages)</li>
-                <li>• App permissions you grant (camera, photo library)</li>
-                <li>• Automated technologies (analytics and diagnostics tools)</li>
-              </ul>
+              <h2 className="text-2xl font-semibold mb-4">2. Information We Collect</h2>
+              
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-lg font-medium mb-2">Personal Information</h3>
+                  <p className="text-white/80">
+                    We may collect personal information you voluntarily provide, including your name, email address, and profile details entered during onboarding or in account settings.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="text-lg font-medium mb-2">Content You Provide</h3>
+                  <p className="text-white/80">
+                    You may upload photos, text, preferences, and other content to receive style feedback, recommendations, or personalized guidance.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="text-lg font-medium mb-2">Financial Preferences</h3>
+                  <p className="text-white/80">
+                    You may optionally provide financial preference information, such as a monthly budget, to help personalize recommendations. This information is not used for payments and is used only to tailor your experience within the Service.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="text-lg font-medium mb-2">Audio Data</h3>
+                  <p className="text-white/80">
+                    If you use voice or audio-based features, we process audio input to provide real-time responses and functionality. Audio data may be temporarily processed to deliver the feature and improve quality. Audio data is not used for advertising purposes.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="text-lg font-medium mb-2">Usage Data</h3>
+                  <p className="text-white/80">
+                    We automatically collect usage data such as device information, IP address, browser or app version, and interactions with the Service.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="text-lg font-medium mb-2">Cookies &amp; Tracking</h3>
+                  <p className="text-white/80">
+                    We use cookies and similar technologies to support functionality, analytics, and performance improvements.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="text-lg font-medium mb-2">Legal Basis for Processing (GDPR)</h3>
+                  <p className="text-white/80 mb-2">We process personal data under the following legal bases:</p>
+                  <ul className="space-y-2 text-white/80 ml-4">
+                    <li>• Consent (Article 6(1)(a)) – for marketing communications and optional analytics</li>
+                    <li>• Contract (Article 6(1)(b)) – to provide the Service and fulfill our agreement with you</li>
+                    <li>• Legitimate Interests (Article 6(1)(f)) – for security, fraud prevention, and service improvement</li>
+                  </ul>
+                </div>
+              </div>
             </div>
 
             {/* Section 3 */}
@@ -94,165 +104,95 @@ export default function Privacy() {
               <h2 className="text-2xl font-semibold mb-4">3. How We Use Your Information</h2>
               <p className="text-white/80 mb-4">We use your information to:</p>
               <ul className="space-y-2 text-white/80 ml-4">
-                <li>• Provide and operate the Service</li>
-                <li>• Analyze uploaded images and generate style feedback</li>
-                <li>• Personalize your experience</li>
-                <li>• Maintain account security</li>
-                <li>• Communicate with you about the Service</li>
-                <li>• Improve app functionality and performance</li>
-                <li>• Comply with legal obligations</li>
+                <li>• Provide, operate, and personalize the Service</li>
+                <li>• Deliver style feedback, recommendations, and saved experiences</li>
+                <li>• Improve functionality, reliability, and performance</li>
+                <li>• Communicate with you about updates, features, product announcements, or re-engagement messages</li>
+                <li>• Support analytics, measurement, and audience insights using aggregated or hashed identifiers</li>
+                <li>• Detect, prevent, and address misuse, fraud, or technical issues</li>
               </ul>
-              <p className="text-white/80 mt-4">We do not use your data for advertising tracking or sell your personal information.</p>
             </div>
 
             {/* Section 4 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">4. AI &amp; Image Processing</h2>
-              <p className="text-white/80 mb-4">
-                Jules uses third-party AI services (including OpenAI) to analyze uploaded photos and generate style feedback.
-              </p>
+              <h2 className="text-2xl font-semibold mb-4">4. How We Share Information</h2>
+              <p className="text-white/80 mb-4">We may share information:</p>
               <ul className="space-y-2 text-white/80 ml-4">
-                <li>• Image analysis is performed server-side</li>
-                <li>• Uploaded photos are used only to provide the Service</li>
-                <li>• AI outputs are generated automatically and are not human-reviewed unless required for support or moderation</li>
+                <li>• With trusted service providers that support hosting, analytics, communications, or infrastructure</li>
+                <li>• To comply with legal obligations, enforce our terms, or protect rights and safety</li>
+                <li>• As part of a business transaction such as a merger or acquisition</li>
               </ul>
-              <p className="text-white/80 mt-4">Jules does not provide medical, mental health, or therapeutic advice.</p>
+              <p className="text-white/80 mt-4 font-medium">We do not sell personal data to third parties.</p>
             </div>
 
             {/* Section 5 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">5. Sharing of Information</h2>
+              <h2 className="text-2xl font-semibold mb-4">5. Data Retention</h2>
               <p className="text-white/80 mb-4">
-                We may share your information with trusted third-party service providers, only as necessary to operate the Service, including:
+                We retain personal data only as long as necessary to provide the Service or as required by law.
               </p>
+              <p className="text-white/80 mb-2 font-medium">Retention Guidelines:</p>
               <ul className="space-y-2 text-white/80 ml-4">
-                <li>• OpenAI – AI processing</li>
-                <li>• Cloudinary – secure image storage</li>
-                <li>• Firebase – authentication and backend services</li>
-                <li>• Analytics and error monitoring providers (e.g., Segment, Sentry)</li>
+                <li>• Account Data: Until account deletion or 3 years of inactivity</li>
+                <li>• Chat &amp; Interaction Data: Up to 2 years from last activity</li>
+                <li>• Analytics Data: Up to 25 months</li>
+                <li>• Marketing Data: Until consent is withdrawn</li>
+                <li>• Legal Records: As required by applicable law</li>
               </ul>
-              <p className="text-white/80 mt-4">We do not sell your personal information.</p>
             </div>
 
             {/* Section 6 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">6. Data Retention</h2>
-              <p className="text-white/80 mb-4">
-                We retain your information only as long as necessary to provide the Service and comply with legal requirements.
-              </p>
+              <h2 className="text-2xl font-semibold mb-4">6. Your Rights (GDPR &amp; CCPA)</h2>
+              <p className="text-white/80 mb-4">Depending on your location, you may have the right to:</p>
               <ul className="space-y-2 text-white/80 ml-4">
-                <li>• While your account is active: data is retained to support app functionality</li>
-                <li>• After account deletion: all personal data, including images and chat history, is permanently deleted or irreversibly anonymized within 30 days, unless retention is required by law</li>
+                <li>• Access your personal data</li>
+                <li>• Correct inaccurate or incomplete information</li>
+                <li>• Request deletion of your data</li>
+                <li>• Restrict or object to certain processing</li>
+                <li>• Export your data in a portable format</li>
+                <li>• Withdraw consent at any time</li>
               </ul>
+              <p className="text-white/80 mt-4">
+                You can exercise these rights by contacting <a href="mailto:steve@juleslabs.com" className="text-blue-400 hover:text-blue-300 underline">steve@juleslabs.com</a> or using in-app account controls where available.
+              </p>
             </div>
 
             {/* Section 7 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">7. Account Deletion &amp; Your Choices</h2>
-              <p className="text-white/80 mb-4">
-                You may delete your account at any time through: <strong>Settings → Delete Account</strong>
-              </p>
-              <p className="text-white/80 mb-2">Deleting your account removes:</p>
-              <ul className="space-y-2 text-white/80 ml-4">
-                <li>• Account information</li>
-                <li>• Uploaded photos</li>
-                <li>• Chat history</li>
-                <li>• Stored preferences</li>
-              </ul>
-              <p className="text-white/80 mt-4">
-                You may also contact us at <a href="mailto:steve@juleslabs.com" className="text-blue-400 hover:text-blue-300 underline">steve@juleslabs.com</a> for assistance.
+              <h2 className="text-2xl font-semibold mb-4">7. Security</h2>
+              <p className="text-white/80">
+                We use reasonable administrative, technical, and organizational safeguards to protect your information. However, no system can be guaranteed to be 100% secure.
               </p>
             </div>
 
             {/* Section 8 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">8. Security</h2>
+              <h2 className="text-2xl font-semibold mb-4">8. Children&apos;s Privacy</h2>
               <p className="text-white/80 mb-4">
-                We use industry-standard security measures to protect your information, including encryption in transit and access controls.
+                The Service is not directed to children under the age of 13, and we do not knowingly collect personal data from children under 13.
               </p>
               <p className="text-white/80">
-                However, no system is completely secure, and we cannot guarantee absolute protection.
+                If we become aware that we have collected personal data from a child under 13, we will take steps to delete it promptly.
               </p>
             </div>
 
             {/* Section 9 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">9. Children&apos;s Privacy</h2>
-              <p className="text-white/80 mb-4">
-                The Service is not intended for children under 13 (or under 16 in certain jurisdictions).
-              </p>
+              <h2 className="text-2xl font-semibold mb-4">9. Changes to This Policy</h2>
               <p className="text-white/80">
-                We do not knowingly collect personal information from children.
+                We may update this Privacy Policy from time to time. Any changes will be posted with an updated effective date.
               </p>
             </div>
 
             {/* Section 10 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">10. Your Privacy Rights</h2>
-              
-              <div className="space-y-4">
-                <div>
-                  <h3 className="text-lg font-medium mb-2">GDPR (European Economic Area)</h3>
-                  <p className="text-white/80 mb-2">If you are located in the EEA, you have the right to:</p>
-                  <ul className="space-y-2 text-white/80 ml-4">
-                    <li>• Access your personal data</li>
-                    <li>• Correct inaccurate data</li>
-                    <li>• Request deletion of your data</li>
-                    <li>• Restrict or object to processing</li>
-                    <li>• Data portability</li>
-                    <li>• Withdraw consent at any time</li>
-                  </ul>
-                  <p className="text-white/80 mt-2">
-                    You may exercise these rights by contacting <a href="mailto:steve@juleslabs.com" className="text-blue-400 hover:text-blue-300 underline">steve@juleslabs.com</a>.
-                  </p>
-                </div>
-                
-                <div>
-                  <h3 className="text-lg font-medium mb-2">CCPA / CPRA (California Residents)</h3>
-                  <p className="text-white/80 mb-2">California residents have the right to:</p>
-                  <ul className="space-y-2 text-white/80 ml-4">
-                    <li>• Know what personal information is collected</li>
-                    <li>• Request deletion of personal information</li>
-                    <li>• Opt out of the sale of personal information (we do not sell data)</li>
-                    <li>• Not be discriminated against for exercising privacy rights</li>
-                  </ul>
-                  <p className="text-white/80 mt-2">
-                    Requests may be made by contacting <a href="mailto:steve@juleslabs.com" className="text-blue-400 hover:text-blue-300 underline">steve@juleslabs.com</a>.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Section 11 */}
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">11. Consent</h2>
-              <p className="text-white/80 mb-4">
-                By using the Service and submitting information, you consent to the collection and use of your information as described in this Privacy Policy.
-              </p>
-              <p className="text-white/80">
-                You may withdraw consent at any time by deleting your account.
-              </p>
-            </div>
-
-            {/* Section 12 */}
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">12. Changes to This Policy</h2>
-              <p className="text-white/80">
-                We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated &ldquo;Last updated&rdquo; date.
-              </p>
-            </div>
-
-            {/* Section 13 */}
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">13. Contact Us</h2>
+              <h2 className="text-2xl font-semibold mb-4">10. Contact Us</h2>
               <p className="text-white/80 mb-4">
                 If you have questions or concerns about this Privacy Policy, contact us at:
               </p>
               <p className="text-white/80">
-                Email: <a href="mailto:steve@juleslabs.com" className="text-blue-400 hover:text-blue-300 underline">steve@juleslabs.com</a>
-              </p>
-              <p className="text-white/80">
-                Company: Jules Labs
+                📧 <a href="mailto:steve@juleslabs.com" className="text-blue-400 hover:text-blue-300 underline">steve@juleslabs.com</a>
               </p>
             </div>
           </div>
