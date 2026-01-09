@@ -44,10 +44,13 @@ export default function Terms() {
             <div>
               <h2 className="text-2xl font-semibold mb-4">2. Eligibility</h2>
               <p className="text-white/80 mb-4">
-                You must be at least 13 years old to use the Service (or 16 years old in jurisdictions where required by law).
+                The Service is rated 9+ and may be used by users under the age of 13 only with the involvement and consent of a parent or legal guardian.
+              </p>
+              <p className="text-white/80 mb-4">
+                If you are under 13, you may use the Service only with parental permission and supervision. Parents or legal guardians are responsible for the activities of minors who use the Service.
               </p>
               <p className="text-white/80">
-                By using the Service, you represent and warrant that you meet the applicable age requirement.
+                By using the Service, you represent that you meet the applicable age requirements or have obtained the required parental consent.
               </p>
             </div>
 
@@ -195,11 +198,14 @@ export default function Terms() {
                 The Service is provided on an &ldquo;AS IS&rdquo; and &ldquo;AS AVAILABLE&rdquo; basis.
               </p>
               <p className="text-white/80 mb-2">To the maximum extent permitted by law, we disclaim all warranties, express or implied, including but not limited to:</p>
-              <ul className="space-y-2 text-white/80 ml-4">
+              <ul className="space-y-2 text-white/80 ml-4 mb-4">
                 <li>• Accuracy or reliability of AI-generated content</li>
                 <li>• Availability or uninterrupted operation of the Service</li>
                 <li>• Fitness for a particular purpose</li>
               </ul>
+              <p className="text-white/80">
+                The Service is not designed for use by children without parental supervision.
+              </p>
             </div>
 
             {/* Section 12 */}
