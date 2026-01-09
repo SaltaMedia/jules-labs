@@ -242,7 +242,7 @@ export default function Terms() {
       <footer className="bg-black text-white py-16">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <div className="text-sm text-white/50">
-            <p>&copy; 2025 Jules Labs. All rights reserved.</p>
+            <p>&copy; 2026 Jules Labs. All rights reserved.</p>
             <div className="mt-4 space-x-6">
               <Link href="https://www.juleslabs.com/terms" className="hover:text-white transition">Terms</Link>
               <Link href="https://www.juleslabs.com/privacy" className="hover:text-white transition">Privacy Policy</Link>

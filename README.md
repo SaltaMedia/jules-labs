@@ -93,7 +93,7 @@ This project is ready for deployment on Vercel, Netlify, or any other platform t
 
 ## License
 
-© 2025 Jules Labs. All rights reserved.
+© 2026 Jules Labs. All rights reserved.
 
 ## Contact
 

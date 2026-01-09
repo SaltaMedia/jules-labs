@@ -185,7 +185,7 @@ export default function Home() {
             <p className="mb-4 text-white/70">
               Jules is an AI tool. Her guidance is for informational purposes only and should not replace professional advice. Use your own judgment before making decisions.
             </p>
-            <p>&copy; 2025 Jules Labs. All rights reserved.</p>
+            <p>&copy; 2026 Jules Labs. All rights reserved.</p>
             <div className="mt-4 space-x-6">
               <a href="https://www.juleslabs.com/terms" className="hover:text-white transition">Terms</a>
               <a href="https://www.juleslabs.com/privacy" className="hover:text-white transition">Privacy Policy</a>
