@@ -139,8 +139,8 @@ export default function Privacy() {
                 <li>• Send re-engagement or product messages where permitted</li>
                 <li>• Conduct analytics and measurement using aggregated or anonymized data</li>
                 <li>• Detect, prevent, and address fraud, abuse, or technical issues</li>
+                <li>• Use contact information, such as email address, for first-party marketing and advertising purposes related to Jules, including audience measurement and lookalike audience creation. We do not sell personal data or use it for cross-app tracking.</li>
               </ul>
-              <p className="text-white/80 mt-4 font-medium">We do not use personal data for cross-app advertising or tracking purposes.</p>
             </div>
 
             {/* Section 5 */}
