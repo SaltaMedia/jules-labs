@@ -90,7 +90,7 @@ export default function Privacy() {
                     <li>• Audio input is processed in real time to provide responses and functionality</li>
                     <li>• Audio data is not used for advertising</li>
                     <li>• Audio recordings are not sold or shared</li>
-                    <li>• Audio data is not retained beyond what is necessary to deliver the feature, except in anonymized or aggregated form to improve reliability and performance</li>
+                    <li>• Audio input is processed in real time. We do not store raw audio recordings</li>
                   </ul>
                 </div>
                 
@@ -236,7 +236,7 @@ export default function Privacy() {
                 The Service is rated 9+ and is not specifically directed toward children under the age of 13.
               </p>
               <p className="text-white/80 mb-4">
-                We do not knowingly collect personal information from children under 13 without parental consent. If a child under 13 uses the Service, it is the responsibility of the parent or legal guardian to supervise such use.
+                We do not knowingly collect personal information from children under 13 without parental consent. The Service is not intended for children under 13. If we become aware that a child under 13 has provided personal information without appropriate consent, we will delete it.
               </p>
               <p className="text-white/80">
                 If we become aware that we have collected personal information from a child under 13 without appropriate consent, we will take steps to delete that information promptly.
