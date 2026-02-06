@@ -231,15 +231,9 @@ export default function Privacy() {
 
             {/* Section 11 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">11. Children&apos;s Privacy</h2>
-              <p className="text-white/80 mb-4">
-                The Service is rated 9+ and is not specifically directed toward children under the age of 13.
-              </p>
-              <p className="text-white/80 mb-4">
-                We do not knowingly collect personal information from children under 13 without parental consent. The Service is not intended for children under 13. If we become aware that a child under 13 has provided personal information without appropriate consent, we will delete it.
-              </p>
+              <h2 className="text-2xl font-semibold mb-4">11. Age Requirement</h2>
               <p className="text-white/80">
-                If we become aware that we have collected personal information from a child under 13 without appropriate consent, we will take steps to delete that information promptly.
+                This app is intended for users 18 years of age or older. We do not knowingly collect personal data from individuals under 18.
               </p>
             </div>
 
