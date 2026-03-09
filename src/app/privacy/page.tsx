@@ -26,7 +26,7 @@ export default function Privacy() {
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="text-center mb-8">
             <p className="text-sm text-white/70">Effective Date: January 9, 2026</p>
-            <p className="text-sm text-white/70">Last Updated: January 9, 2026</p>
+            <p className="text-sm text-white/70">Last Updated: March 8, 2026</p>
           </div>
 
           <div className="space-y-6">
@@ -139,7 +139,7 @@ export default function Privacy() {
                 <li>• Send re-engagement or product messages where permitted</li>
                 <li>• Conduct analytics and measurement using aggregated or anonymized data</li>
                 <li>• Detect, prevent, and address fraud, abuse, or technical issues</li>
-                <li>• Use contact information, such as email address, for first-party marketing and advertising purposes related to Jules, including audience measurement and lookalike audience creation. We do not sell personal data or use it for cross-app tracking.</li>
+                <li>• Use contact information, such as email address, for first-party marketing and advertising purposes related to Jules, including audience measurement and lookalike audience creation. We do not sell personal data or use it to build cross-app behavioral profiles.</li>
               </ul>
             </div>
 
@@ -215,9 +215,21 @@ export default function Privacy() {
 
             {/* Section 9 */}
             <div>
-              <h2 className="text-2xl font-semibold mb-4">9. Data Used for Tracking</h2>
+              <h2 className="text-2xl font-semibold mb-4">9. Tracking and Advertising Identifiers</h2>
+              <p className="text-white/80 mb-4">
+                The Service may use device identifiers and similar technologies to measure the effectiveness of advertising campaigns and understand how users discover the app.
+              </p>
+              <p className="text-white/80 mb-2">These identifiers may be used for:</p>
+              <ul className="space-y-2 text-white/80 ml-4 mb-4">
+                <li>• Attribution and analytics related to advertising campaigns</li>
+                <li>• Measuring installation sources and campaign performance</li>
+                <li>• Improving marketing effectiveness</li>
+              </ul>
+              <p className="text-white/80 mb-4">
+                When required by Apple or your device settings, the app will request permission before accessing advertising identifiers.
+              </p>
               <p className="text-white/80">
-                We do not track users across third-party apps or websites for advertising purposes, and we do not engage in cross-app tracking as defined by Apple.
+                Jules Labs does not use these identifiers to build cross-app behavioral profiles or sell personal data to third parties.
               </p>
             </div>
 
