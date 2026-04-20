@@ -30,13 +30,21 @@ export function Section({ id, title, subtitle, bg="white", children }: Props) {
   const hasDivider = isDarkBackground; // All dark/gradient sections get a divider
 
   return (
-    <section id={id} className={`${getBackgroundClass()} ${hasDivider ? 'pb-16' : ''} scroll-mt-20`}>
-      <div className="mx-auto max-w-6xl px-6 py-16">
-        {title && <h2 className={`text-2xl md:text-3xl font-semibold text-center ${isDarkBackground ? "text-white" : "text-slate-900"}`}>{title}</h2>}
-        {subtitle && <p className={`mt-2 text-center ${isDarkBackground ? "text-white/70" : "text-slate-600"}`}>{subtitle}</p>}
-        <div className={`mt-6 ${isDarkBackground ? "text-white/90" : "text-slate-900"}`}>{children}</div>
+    <section id={id} className={`${getBackgroundClass()} ${hasDivider ? "pb-20 md:pb-24" : ""} scroll-mt-24`}>
+      <div className="mx-auto max-w-6xl px-6 py-20 md:px-8 md:py-24">
+        {title && (
+          <h2 className={`text-center text-3xl font-medium tracking-[-0.03em] md:text-[2.35rem] ${isDarkBackground ? "text-white" : "text-slate-900"}`}>
+            {title}
+          </h2>
+        )}
+        {subtitle && (
+          <p className={`mx-auto mt-3 max-w-2xl text-center text-sm tracking-[0.08em] ${isDarkBackground ? "text-white/60" : "text-slate-600"}`}>
+            {subtitle}
+          </p>
+        )}
+        <div className={`mt-8 md:mt-10 ${isDarkBackground ? "text-white/90" : "text-slate-900"}`}>{children}</div>
       </div>
-      {hasDivider && <div className="h-px bg-white/10 mx-auto max-w-6xl"></div>}
+      {hasDivider && <div className="mx-auto h-px max-w-6xl bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>}
     </section>
   );
 }

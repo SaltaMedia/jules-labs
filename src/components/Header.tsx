@@ -4,22 +4,22 @@ import Link from "next/link";
 export function Header() {
   return (
     <header className="sticky top-0 z-50 glassify">
-      <div className="mx-auto max-w-6xl px-6 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center">
+      <div className="mx-auto flex h-[4.5rem] max-w-6xl items-center justify-between px-6 md:px-8">
+        <Link href="/" className="flex items-center opacity-95 transition hover:opacity-100">
           <Image
             src="/Jules%20Labs%20White%20Hero.svg"
             alt="Jules Labs"
             width={1419}
             height={395}
-            className="h-8 w-auto"
+            className="h-7 w-auto md:h-8"
           />
         </Link>
-        <nav className="hidden md:flex items-center gap-6 text-sm text-white/80">
-          <Link href="/#about" className="hover:text-white transition">About</Link>
-          <Link href="/#products" className="hover:text-white transition">Products</Link>
+        <nav className="hidden items-center gap-8 text-[0.95rem] text-white/68 md:flex">
+          <Link href="/#about" className="transition hover:text-white">About</Link>
+          <Link href="/#products" className="transition hover:text-white">Products</Link>
           <a
             href="mailto:steve@juleslabs.com"
-            className="hover:text-white transition"
+            className="secondary-button px-4 py-2 text-[0.9rem]"
           >
             Contact
           </a>

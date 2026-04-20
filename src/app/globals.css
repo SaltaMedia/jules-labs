@@ -1,26 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
-:root { 
-  color-scheme: light; 
+:root {
+  color-scheme: dark;
+  background-color: #050816;
 }
 
-body { 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   @apply antialiased text-white font-sans;
   font-family: 'Inter', sans-serif;
-  background: linear-gradient(to bottom right, #111827, #1f2937, #374151);
+  background:
+    radial-gradient(circle at 50% -10%, rgba(77, 144, 254, 0.18), transparent 34%),
+    radial-gradient(circle at 15% 20%, rgba(54, 85, 182, 0.16), transparent 28%),
+    radial-gradient(circle at 85% 30%, rgba(50, 72, 138, 0.12), transparent 26%),
+    linear-gradient(180deg, #050816 0%, #0a1020 38%, #0b1222 100%);
   min-height: 100vh;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.05), transparent 42%),
+    linear-gradient(180deg, rgba(4, 8, 18, 0) 0%, rgba(4, 8, 18, 0.3) 100%);
+  opacity: 0.9;
+}
+
 .glassify {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(8, 12, 24, 0.62);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 12px 40px rgba(3, 7, 18, 0.28);
 }
 
 .glassify-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.03));
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(2, 6, 23, 0.26);
+}
+
+.surface-card {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04)),
+    rgba(11, 18, 34, 0.68);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    0 22px 70px rgba(2, 6, 23, 0.24);
+  backdrop-filter: blur(18px);
+  transition:
+    border-color 180ms ease,
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.surface-card:hover {
+  border-color: rgba(148, 163, 184, 0.24);
+  transform: translateY(-1px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 28px 80px rgba(2, 6, 23, 0.3);
+}
+
+.primary-button {
+  @apply inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-medium text-white;
+  background: linear-gradient(180deg, rgba(74, 144, 255, 1) 0%, rgba(45, 109, 229, 1) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 14px 34px rgba(37, 99, 235, 0.28);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    filter 180ms ease;
+}
+
+.primary-button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 18px 42px rgba(37, 99, 235, 0.34);
+}
+
+.secondary-button {
+  @apply inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-medium text-white;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 12px 32px rgba(2, 6, 23, 0.18);
+  transition:
+    border-color 180ms ease,
+    background 180ms ease,
+    transform 180ms ease;
+}
+
+.secondary-button:hover {
+  transform: translateY(-1px);
   background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(15px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 16px;
+  border-color: rgba(255, 255, 255, 0.18);
 }
