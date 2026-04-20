@@ -8,8 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Jules Labs - AI that gets you off your phone and into your life",
-  description: "We build emotionally intelligent tools that help men navigate the real world with confidence and clarity. We start with style.",
+  title: "Jules Labs - AI-First Product Studio and Consultancy",
+  description:
+    "We build AI products and systems for the real world across consumer, B2B, growth, partnerships, and applied AI.",
 };
 
 export default function RootLayout({

@@ -12,16 +12,20 @@ export default function Home() {
       <section className="text-white pb-16">
         <div className="mx-auto max-w-6xl px-6 py-28">
           <div className="flex flex-col items-center text-center gap-6">
-            <Image src="/logo.svg" alt="Jules Labs" width={480} height={128} priority className="h-32 w-auto" />
+            <Image
+              src="/Jules%20Labs%20White%20Hero.svg"
+              alt="Jules Labs"
+              width={1419}
+              height={395}
+              priority
+              className="h-32 w-auto"
+            />
             <h1 className="text-4xl md:text-6xl font-medium leading-tight">
-              AI for the Real World
+              AI-First Product Studio and Consultancy
             </h1>
-            <p className="max-w-2xl text-lg opacity-90">
-              We build emotionally intelligent tools that help men navigate the real world with confidence and clarity.
+            <p className="max-w-3xl text-lg opacity-90">
+              We build AI products and systems for the real world across consumer, B2B, growth, partnerships, and applied AI.
             </p>
-            <a href="#jules" className="inline-flex items-center text-xl font-medium text-blue-400 hover:text-blue-300 transition underline">
-              Meet Jules
-            </a>
           </div>
         </div>
         <div className="h-px bg-white/10 mx-auto max-w-6xl"></div>
@@ -31,77 +35,128 @@ export default function Home() {
       <Section id="about" title="About Jules Labs" bg="gradient1">
         <div className="text-center max-w-4xl mx-auto space-y-6">
           <p className="text-lg leading-relaxed">
-            In a market flooded with AI that encourages escapism, Jules offers something different: a guide, not a girlfriend. Jules Labs is building emotionally intelligent, AI-powered tools to help men in confidently navigate their own path in the real world.
+            Jules Labs is an AI-first product studio and consultancy building products and systems for the real world. We work across consumer, B2B, growth, partnerships, and applied AI—building our own products while helping companies move faster with better tools, sharper strategy, and AI-native execution.
           </p>
           <p className="text-lg leading-relaxed">
-            We&apos;re creating a human-first platform that supports, sharpens, and challenges users to express themselves, and build confidence to be themselves in real-world relationships and interactions.
+            Our work spans product development, strategic partnerships, commercial growth, and applied AI systems designed to improve decision-making, opportunity sourcing, and execution.
           </p>
           <p className="text-lg leading-relaxed">
-            Our flagship product, Jules (currently in beta), is a modern AI wingwoman built to elevate, not replace, human experience. Jules is tackling two main verticals: dating and style. Because how you show up is the first step toward confidence. Show up with intention, and everything shifts: how you feel, how you act, and how people respond.
+            From consumer products to AI-powered business systems, we focus on tools that are useful, personal, and grounded in real behavior.
           </p>
-
         </div>
       </Section>
 
-      {/* Why Now */}
-      <Section id="why-now" title="Why Now" subtitle="Men are lonelier and less connected than ever." bg="gradient3">
-        <div className="max-w-6xl mx-auto">
-          {/* Numbers in a line */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            <div className="text-center">
-              <div className="text-6xl font-bold text-blue-400 mb-2">25%</div>
-              <div className="text-white/80 text-sm">
-                of U.S. men 15–34 felt lonely much of the previous day
-              </div>
-              <a 
-                href="https://www.washingtonpost.com/nation/2025/05/21/lonely-young-american-men-poll/" 
-                target="_blank" 
-                rel="noreferrer noopener"
-                className="block mt-2 text-xs text-blue-300 hover:text-blue-200 underline"
-              >
-                Washington Post
-              </a>
+      {/* Our Products */}
+      <Section id="products" title="Our Products" bg="gradient3">
+        <div className="max-w-5xl mx-auto space-y-8">
+          <div className="flex flex-col gap-6 rounded-3xl border border-white/10 bg-white/5 p-6 md:flex-row md:items-center md:p-8">
+            <div className="flex h-28 w-28 shrink-0 items-center justify-center overflow-hidden rounded-3xl bg-white/10">
+              <Image
+                src="/Ask%20Jules%20V2%20App%20Icon.svg"
+                alt="Ask Jules"
+                width={112}
+                height={112}
+                className="h-28 w-28"
+              />
             </div>
-            
-            <div className="text-center">
-              <div className="text-6xl font-bold text-purple-400 mb-2">44%</div>
-              <div className="text-white/80 text-sm">
-                of Gen Z men never dated as teens
-              </div>
-              <a 
-                href="#" 
-                target="_blank" 
-                rel="noreferrer noopener"
-                className="block mt-2 text-xs text-purple-300 hover:text-purple-200 underline"
-              >
-                Source
-              </a>
+            <div className="flex-1">
+              <h3 className="text-2xl font-semibold text-white">Ask Jules</h3>
+              <p className="mt-3 text-lg leading-relaxed text-white/85">
+                Your AI guide for confidence, style, dating, and real-world self-presentation.
+              </p>
             </div>
-            
-            <div className="text-center">
-              <div className="text-6xl font-bold text-red-400 mb-2">50%</div>
-              <div className="text-white/80 text-sm">
-                of young men say they&apos;d rather date an AI girlfriend than risk rejection from a human partner
-              </div>
-              <a 
-                href="#" 
-                target="_blank" 
+            <div className="md:flex md:shrink-0 md:justify-end">
+              <a
+                href="https://apps.apple.com/us/app/ask-jules/id6756280983"
+                target="_blank"
                 rel="noreferrer noopener"
-                className="block mt-2 text-xs text-red-300 hover:text-red-200 underline"
+                className="inline-flex w-full items-center justify-center rounded-xl bg-blue-500 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-400 md:w-auto md:min-w-40"
               >
-                Reuters (2025)
+                Download
               </a>
             </div>
           </div>
 
-          {/* The Wrong Solution */}
-          <div className="text-center max-w-4xl mx-auto">
-            <h3 className="text-2xl font-semibold text-white mb-6">
-              The Wrong Solution
-            </h3>
-            <p className="text-lg leading-relaxed text-white/90">
-              Social media and AI &ldquo;girlfriends&rdquo; promise connection but deliver isolation. They feed false intimacy and keep men stuck in escape instead of building real confidence. Jules is built to break that cycle and bring men back to the real world, where strength, style, and connection are forged.
-            </p>
+          <div className="flex flex-col gap-6 rounded-3xl border border-white/10 bg-white/5 p-6 md:flex-row md:items-center md:p-8">
+            <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-3xl border border-white/15 bg-slate-900 text-center text-base font-semibold text-white">
+              Jules Atlas
+            </div>
+            <div className="flex-1">
+              <h3 className="text-2xl font-semibold text-white">Jules Atlas</h3>
+              <p className="mt-3 text-lg leading-relaxed text-white/85">
+                A partnership intelligence system for identifying, prioritizing, and acting on strategic growth opportunities.
+              </p>
+              <p className="mt-4 text-sm font-medium uppercase tracking-[0.2em] text-white/60">
+                Status: In beta
+              </p>
+            </div>
+            <div className="md:flex md:shrink-0 md:justify-end">
+              <a
+                href="mailto:steve@juleslabs.com?subject=Jules%20Atlas%20Demo"
+                className="inline-flex w-full items-center justify-center rounded-xl bg-blue-500 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-400 md:w-auto md:min-w-40"
+              >
+                Request Demo
+              </a>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-6 rounded-3xl border border-white/10 bg-white/5 p-6 md:flex-row md:items-center md:p-8">
+            <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-3xl border border-white/15 bg-slate-900 text-center text-base font-semibold text-white">
+              Jules Jobs
+            </div>
+            <div className="flex-1">
+              <h3 className="text-2xl font-semibold text-white">Jules Jobs</h3>
+              <p className="mt-3 text-lg leading-relaxed text-white/85">
+                An AI-powered job search and positioning tool that aggregates relevant roles, surfaces targets, and helps users sharpen their angle.
+              </p>
+              <p className="mt-4 text-sm font-medium uppercase tracking-[0.2em] text-white/60">
+                Status: In development
+              </p>
+            </div>
+            <div className="md:flex md:shrink-0 md:justify-end">
+              <a
+                href="mailto:steve@juleslabs.com?subject=Jules%20Jobs%20Early%20Access"
+                className="inline-flex w-full items-center justify-center rounded-xl bg-blue-500 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-400 md:w-auto md:min-w-40"
+              >
+                Get Early Access
+              </a>
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      {/* Consulting */}
+      <Section id="consulting" title="Consulting" bg="gradient4">
+        <div className="max-w-5xl mx-auto">
+          <p className="mx-auto max-w-3xl text-center text-lg leading-relaxed text-white/85">
+            We help companies design and apply AI systems for growth, partnerships, and product strategy.
+          </p>
+
+          <div className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div className="flex min-h-36 items-center justify-center rounded-3xl border border-blue-300/20 bg-blue-500/10 p-6 text-center backdrop-blur-sm">
+              <h3 className="text-xl font-semibold text-white">AI product strategy</h3>
+            </div>
+            <div className="flex min-h-36 items-center justify-center rounded-3xl border border-blue-300/20 bg-blue-500/10 p-6 text-center backdrop-blur-sm">
+              <h3 className="text-xl font-semibold text-white">Growth systems, User Acquisition and Experimentation</h3>
+            </div>
+            <div className="flex min-h-36 items-center justify-center rounded-3xl border border-blue-300/20 bg-blue-500/10 p-6 text-center backdrop-blur-sm">
+              <h3 className="text-xl font-semibold text-white">Partnership and Business Development</h3>
+            </div>
+            <div className="flex min-h-36 items-center justify-center rounded-3xl border border-blue-300/20 bg-blue-500/10 p-6 text-center backdrop-blur-sm">
+              <h3 className="text-xl font-semibold text-white">Messaging, Positioning, and Commercialization</h3>
+            </div>
+            <div className="flex min-h-36 items-center justify-center rounded-3xl border border-blue-300/20 bg-blue-500/10 p-6 text-center backdrop-blur-sm md:col-span-2 md:mx-auto md:w-[calc(50%-0.5rem)]">
+              <h3 className="text-xl font-semibold text-white">Opportunity Analysis and Decision Support</h3>
+            </div>
+          </div>
+
+          <div className="mt-10 flex justify-center">
+            <a
+              href="mailto:steve@juleslabs.com?subject=Work%20with%20Jules%20Labs"
+              className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-6 py-3 text-sm font-medium text-white transition hover:bg-white/15"
+            >
+              Work with Jules Labs
+            </a>
           </div>
         </div>
       </Section>
@@ -130,48 +185,19 @@ export default function Home() {
         </div>
       </Section>
 
-      {/* Jules Style */}
-      <Section id="jules" bg="gradient3">
-        <div className="text-center">
-          <div className="flex items-center justify-center gap-4 mb-8">
-            <span className="text-3xl md:text-4xl font-semibold">Meet </span>
-            <Image src="/Jules_Logo_White_Final_NoOutline.png" alt="Jules" width={180} height={48} />
-          </div>
-
-          <div className="max-w-4xl mx-auto space-y-6">
-            <p className="text-lg leading-relaxed">
-              Our first product is Jules.
-            </p>
-
-            <p className="text-lg leading-relaxed">
-              She&apos;s not an AI girlfriend. She&apos;s not a replacement for real life. Jules is designed to help men build confidence where it matters most. She&apos;s trained by humans, guided by psychology, and shaped by real-world experiences.
-            </p>
-
-            <p className="text-lg leading-relaxed">
-              We&apos;re starting with two verticals:
-            </p>
-
-            <div className="text-left max-w-2xl mx-auto space-y-4">
-              <p className="text-lg leading-relaxed">
-                <strong>Dating</strong> → Feedback on photos, profiles, and texts, plus guidance on showing up better for dates.
-              </p>
-              <p className="text-lg leading-relaxed">
-                <strong>Style</strong> → Build confidence through how you dress and present yourself, informed by real stylists.
-              </p>
-            </div>
-
-            <p className="text-lg leading-relaxed">
-              Right now, Jules is in beta, and we&apos;re inviting real guys to test, shape, and grow with her. This isn&apos;t a polished showroom demo. By joining now, you&apos;ll be part of the ground floor, giving feedback that makes Jules smarter and more personal every day.
-            </p>
-
-            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://dating.juleslabs.com" className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-lg font-medium transition bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:from-pink-600 hover:to-purple-700 shadow-lg">
-                Try Jules for Dating
-              </a>
-              <a href="https://app.juleslabs.com" className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-lg font-medium transition bg-gradient-to-r from-blue-500 to-blue-600 text-white hover:from-blue-600 hover:to-blue-700 shadow-lg">
-                Try Jules for Style
-              </a>
-            </div>
+      {/* Get In Touch */}
+      <Section id="contact" title="Get In Touch" bg="gradient3">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="text-lg leading-relaxed text-white/85">
+            Interested in working together, seeing a product demo, or learning more about Jules Labs?
+          </p>
+          <div className="mt-8 flex justify-center">
+            <a
+              href="mailto:steve@juleslabs.com?subject=Get%20In%20Touch"
+              className="inline-flex items-center justify-center rounded-xl bg-blue-500 px-6 py-3 text-sm font-medium text-white transition hover:bg-blue-400"
+            >
+              Get In Touch
+            </a>
           </div>
         </div>
       </Section>
