@@ -245,7 +245,7 @@ export default function Privacy() {
             <div>
               <h2 className="text-2xl font-semibold mb-4">11. Age Requirement</h2>
               <p className="text-white/80">
-                This app is intended for users 18 years of age or older. We do not knowingly collect personal data from individuals under 18.
+                This app is intended for users 13 years of age or older. We do not knowingly collect personal data from individuals under 13.
               </p>
             </div>
 
@@ -264,7 +264,7 @@ export default function Privacy() {
                 If you have questions or concerns about this Privacy Policy, contact us at:
               </p>
               <p className="text-white/80">
-                📧 <a href="mailto:steve@juleslabs.com" className="text-blue-400 hover:text-blue-300 underline">steve@juleslabs.com</a>
+                📧 <a href="mailto:jules@juleslabs.com" className="text-blue-400 hover:text-blue-300 underline">jules@juleslabs.com</a>
               </p>
               <p className="text-white/80 mt-2">
                 🏢 Jules Labs, LLC
