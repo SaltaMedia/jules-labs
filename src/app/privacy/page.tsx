@@ -26,7 +26,7 @@ export default function Privacy() {
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="text-center mb-8">
             <p className="text-sm text-white/70">Effective Date: January 9, 2026</p>
-            <p className="text-sm text-white/70">Last Updated: March 8, 2026</p>
+            <p className="text-sm text-white/70">Last Updated: May 19, 2026</p>
           </div>
 
           <div className="space-y-6">
@@ -70,6 +70,30 @@ export default function Privacy() {
                   </p>
                 </div>
                 
+                <div>
+                  <h3 className="text-lg font-medium mb-2">Calendar Data</h3>
+                  <p className="text-white/80 mb-2">If you choose to connect your calendar, we access and store the following to provide Jules&apos; core functionality:</p>
+                  <ul className="space-y-1 text-white/80 ml-4 mb-3">
+                    <li>• Event titles, dates, times, and locations</li>
+                    <li>• Event descriptions and notes where provided</li>
+                  </ul>
+                  <p className="text-white/80 mb-2 font-medium">How this data is used:</p>
+                  <ul className="space-y-1 text-white/80 ml-4 mb-3">
+                    <li>• Event content is stored on Jules&apos; servers to generate proactive outfit suggestions and preparation recommendations tied to your upcoming events</li>
+                    <li>• Event data is processed through Jules&apos; personalization pipeline to improve the relevance of recommendations over time</li>
+                    <li>• This processing happens automatically when you view event details within the app</li>
+                  </ul>
+                  <p className="text-white/80 mb-2 font-medium">Your controls:</p>
+                  <ul className="space-y-1 text-white/80 ml-4 mb-3">
+                    <li>• You can disconnect calendar access at any time through your device settings or in-app account settings</li>
+                    <li>• Disconnecting stops future calendar data collection but does not automatically delete previously stored event data</li>
+                    <li>• To delete stored calendar data, use the account deletion option in settings or contact us at <a href="mailto:jules@juleslabs.com" className="text-blue-400 hover:text-blue-300 underline">jules@juleslabs.com</a></li>
+                  </ul>
+                  <p className="text-white/80">
+                    <strong>Retention:</strong> Calendar event data is retained for up to 2 years from last activity or until account deletion.
+                  </p>
+                </div>
+
                 <div>
                   <h3 className="text-lg font-medium mb-2">Financial Preferences</h3>
                   <p className="text-white/80 mb-2">
